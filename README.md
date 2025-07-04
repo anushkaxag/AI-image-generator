@@ -45,5 +45,11 @@ npm run server
 4. Access the Application <br/>
 Go to http://localhost:5173/
 
-## Note
-Make sure to configure the `.env` files in both `client` and `sever` directories with the appropriate API keys, MongoDB URI and JWT secrets
+## Note:
+Make sure to configure the `.env` files:
+- Go to Server directory and create a .env file for enviornment variables
+```
+MONGODB_URI = (MongoDB Atlas URI)
+JWT_SECRET = 'adfg'
+CLIPDROP_API = (Clipdrop API)
+```
